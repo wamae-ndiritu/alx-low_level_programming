@@ -1,6 +1,10 @@
 #include <stdio.h>
 /**
- * using puts to print a statement on the screen
+ * main - main entry point of the program
+ * @void: Takes no arguments
+ *
+ * Description: prints "Programming is like building a multilingual puzzle
+ * Return: returns 0
  */
 int main(void)
 {
