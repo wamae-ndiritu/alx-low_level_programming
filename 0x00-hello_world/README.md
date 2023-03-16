@@ -6,4 +6,6 @@
 
 [2. Assembler](./2-assembler) - At the Assembling stage, the program is converted to machine code. However, in this task we will convert the program to an assembly code with `gcc -S $CFILE`. `-S` option tells the computer to stop the process after the compilation stage.
 
+[3. Name](./3-name) - This is the Linking stage. At this stage, the program is compiled and made executable. The linking basically links any of the required resources such as system calls to the program and therefore make it to be executable. `gcc -o cisfun $CFILE`. Since we have not used any option to specify why the compilation process should stop, it will continue up to the last part of linking the program. `-o` option is only used tospecify how the output file will be named. In this case, the executable file will be called `cisfun`.
+
 
