@@ -4,4 +4,6 @@
 
 [1. Compiler](./1-compiler) - At the compiling stage, the program is converted to assembly code. However, in this task, we will compile it to machine code which is an object file. `gcc -c main.c`. If our file is named `main.c`, then an object file will be created as `main.o`.
 
+[2. Assembler](./2-assembler) - At the Assembling stage, the program is converted to machine code. However, in this task we will convert the program to an assembly code with `gcc -S $CFILE`. `-S` option tells the computer to stop the process after the compilation stage.
+
 
