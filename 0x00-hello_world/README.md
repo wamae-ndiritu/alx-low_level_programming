@@ -16,4 +16,4 @@
 
 [7. Intel](./100-intel) - By default, when we compile our program with `gcc`, it is is compiled in AT&T Assembly Language. We can also specify the Assembly Language syntax we need. In this task we are compiling the program into an Assembly Language using the `Intel` syntax.
 
-
+[8. UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity](./101-quote.c) - We can display a value to the screen without using the `printf` and `puts` functions. In this task, we are using `write` function. It is used to write data from a buffer to a file descrptor. The function takes a couple of arguments, the file descriptor, which can be represented as integer `2` for an standard error file descrptor. The other argumet is the buffer to be written and in our case it refers to the text we want to display, and finally we have the bytes that we want to write. To ensure the bytes we declare is enough for the buffer we are writing in, we can use the `sizeof` of the buffer. Additionaly, the write function is found in the `unistd.h` and therefore this header file must be included in the program file.
