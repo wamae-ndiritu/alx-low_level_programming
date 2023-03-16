@@ -12,4 +12,4 @@
 
 [5. Hello, printf](./5-printf.c) - `printf` function in c is used to display a string on the screen. However, this function is more powerful that the `puts` function despite performing the same task since, it can format the text being displayed on the screen.
 
-
+[6. Size is not grandeur, and territory does not make a nation](./6-size.c) - `sizeof` is used to compute the size of its operand. In this task, we will use it to compute the size of various data types such as a `char` `int`in c. `printf` will be used to help format the result of the computation to an integer inside the string.
