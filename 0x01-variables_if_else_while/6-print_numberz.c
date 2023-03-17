@@ -9,10 +9,11 @@
 int main(void)
 {
 	int i = 0;
-	
+
 	while (i < 10)
 	{
 		int digit_ascii = i + '0';
+
 		putchar(digit_ascii);
 		i++;
 	}
