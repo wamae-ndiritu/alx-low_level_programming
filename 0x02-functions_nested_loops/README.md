@@ -9,3 +9,5 @@
 [3. islower](./3-islower.c) - To check wheteher a character is in lowercase, we can use `islower()` function found in the standard library. We are using this function to create a custom function that checks for lowercase character using this `islower()` which is refereced in the `ctype.h` header file.
 
 [4. isalpha](./4-isalpha.c) - To check whether a character is an alphabet, the standard library has a function called `isalpha()`. In this task, we are making use of this function to create a function called `_isalpha()` that checks whether the character passed as the argument is a character or not.
+
+[5. Sign](./5-sign.c) - In this task, we are checking the sign of a number. If the number is greater than 0, then its sign is `+`, else if the number is less than 0, it's sign is `-` and if it is equal to zero, its `0`. The function performing this is called `print_sign()`.
