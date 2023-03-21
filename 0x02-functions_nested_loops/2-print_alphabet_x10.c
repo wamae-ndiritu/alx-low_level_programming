@@ -4,7 +4,7 @@
  * print_alphabet_x10 - prints all alphabets 10 times
  *
  * Description - the function takes the custom
- * _putchar() referenced in the main.h to 
+ * _putchar() referenced in the main.h to
  * print abcdefghijklmnopqrstuvwxyz
  * 10 times
  *
@@ -17,7 +17,7 @@ void print_alphabet_x10(void)
 
 	while (i < 10)
 	{
-		while(alphabet <= 'z'&& i < 10)
+		while (alphabet <= 'z')
 		{
 			_putchar(alphabet);
 			alphabet++;
