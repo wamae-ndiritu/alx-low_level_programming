@@ -11,3 +11,5 @@
 [4. isalpha](./4-isalpha.c) - To check whether a character is an alphabet, the standard library has a function called `isalpha()`. In this task, we are making use of this function to create a function called `_isalpha()` that checks whether the character passed as the argument is a character or not.
 
 [5. Sign](./5-sign.c) - In this task, we are checking the sign of a number. If the number is greater than 0, then its sign is `+`, else if the number is less than 0, it's sign is `-` and if it is equal to zero, its `0`. The function performing this is called `print_sign()`.
+
+[6. There is no such thing as absolute value in this world. You can only estimate what a thing is worth to you](./6-abs.c) - The absolute value of a number can be given by the function `abs()` in the standard library `stdlib.h` header file. However, we want to create a function that uses this function to get the absolute values. The function is called `int _abs()`.
