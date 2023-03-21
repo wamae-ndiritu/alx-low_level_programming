@@ -13,3 +13,7 @@
 [5. Sign](./5-sign.c) - In this task, we are checking the sign of a number. If the number is greater than 0, then its sign is `+`, else if the number is less than 0, it's sign is `-` and if it is equal to zero, its `0`. The function performing this is called `print_sign()`.
 
 [6. There is no such thing as absolute value in this world. You can only estimate what a thing is worth to you](./6-abs.c) - The absolute value of a number can be given by the function `abs()` in the standard library `stdlib.h` header file. However, we want to create a function that uses this function to get the absolute values. The function is called `int _abs()`.
+
+[7. There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important](./7-print_last_digit.c) - To get the last digit of a number, we can use the modulus `%` operator. We will create a function that returns this las digit, called `print_last_digit()`.
+
+
