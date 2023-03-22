@@ -9,14 +9,11 @@
  */
 void times_table(void)
 {
-	int x = 0;
-	int y = 0;
-	int product;
-	int next_multiple;
+	int x, y, product, next_multiple;
 
-	while (y < 10)
+	for (y = 0; y < 10; y++)
 	{
-		while (x < 10)
+		for (x = 0; x < 10; x++)
 		{
 			product = y * x;
 			next_multiple = product + y;
@@ -47,10 +44,8 @@ void times_table(void)
 					}
 				}
 			}
-			x++;
 		}
 		_putchar('\n');
 		x = 0;
-		y++;
 	}
 }
