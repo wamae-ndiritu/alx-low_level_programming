@@ -18,4 +18,8 @@
 
 [8. I'm federal agent Jack Bauer, and today is the longest day of my life](./8-24_hours.c) - A function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59. Since using the `_putchar()` requires only one character, we must print one digit as a string one at a time. To get the tens of the hours, we can divide by 10 `/`. This gives us a whole number and leaves behind the remainder. On the other hand, to get the ones, we can use the modulus operator, `%`, with 10 which will give the remainder after dividing the hrs by 10 and this is basically the last digit of the hrs. This applies also to the minutes.
 
+[9. Learn your times table](./9-times_table.c) - Printing times table starting from zero. The task make use of loops and conditions. 
+
+[10. a + b](./10-add.c) - A program to add two integers and return the result. The function we are creating is calle `add()`.
+
 
