@@ -16,4 +16,6 @@
 
 [7. There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important](./7-print_last_digit.c) - To get the last digit of a number, we can use the modulus `%` operator. We will create a function that returns this las digit, called `print_last_digit()`.
 
+[8. I'm federal agent Jack Bauer, and today is the longest day of my life](./8-24_hours.c) - A function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59. Since using the `_putchar()` requires only one character, we must print one digit as a string one at a time. To get the tens of the hours, we can divide by 10 `/`. This gives us a whole number and leaves behind the remainder. On the other hand, to get the ones, we can use the modulus operator, `%`, with 10 which will give the remainder after dividing the hrs by 10 and this is basically the last digit of the hrs. This applies also to the minutes.
+
 
