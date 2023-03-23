@@ -8,4 +8,4 @@
 
 [3. The numbers speak for themselves](./3-print_numbers.c) - A program to print all the numbers from 0 to 9. We make use of a `for` loop and to print the number we use `_putchar()` that has been defined in the custom header file `main.h`.
 
-
+[4. I believe in numbers and signs](./4-print_most_numbers.c) - A program that uses the `_putchar()` as above to print all digits from 0 to 9 except 2 and 4. To do this, we can use the logical and `&&` while giving our conditions such that `i != 2 && i != 4 `, i is not equal to 2 and not equal to 4.
