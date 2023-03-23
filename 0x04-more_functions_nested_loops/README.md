@@ -16,6 +16,8 @@
 
 [7. I feel like I am diagonally parked in a parallel universe](./7-print_diagonal.c) - A program to print diagonal line on the terminal using the `\` character and spaces. f the argument of the function is less than 0 or equal to 0, then a new line is printed. Otherwise, `\` is printed separated by a new line as many times as required. The program keeps track of the `\` being printed so that it adds some spaces on to it to make all the \ to form a diagonal line. Also, I realized that when printing `\`, which is an escape character, we must add another, so that the first escapes the later.
 
+[8. You are so much sunshine in every square inch](./8-print_square.c) - A program that prints `#` character to form a square. The size of the square is specified in the argument being passed to the function. The function prints the characters as many times as the size given in both x and y direction to form a square. This is achieved by using a nested while loop. If the `size <= 0` the program prints a new line. The program shoul only use the `_putchar()` function to print characters.
+
 
 
 
