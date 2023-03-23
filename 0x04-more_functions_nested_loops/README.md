@@ -10,6 +10,6 @@
 
 [4. I believe in numbers and signs](./4-print_most_numbers.c) - A program that uses the `_putchar()` as above to print all digits from 0 to 9 except 2 and 4. To do this, we can use the logical and `&&` while giving our conditions such that `i != 2 && i != 4 `, i is not equal to 2 and not equal to 4.
 
-[5. Numbers constitute the only universal language](./5-more_numbers.c) - A program to print numbers from 0 to 14, 10 times separated by new line. The task requires us only to use the `_putchar()` function.
+[5. Numbers constitute the only universal language](./5-more_numbers.c) - A program to print numbers from 0 to 14, 10 times separated by new line. The task requires us only to use the `_putchar()` function 3 times.
 
 
