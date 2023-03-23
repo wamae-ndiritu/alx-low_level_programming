@@ -6,4 +6,6 @@
 
 [2. Collaboration is multiplication](./2-mul.c) - A function that takes two integers and return their product. The custom function is called `mul()` and has been defined in the `main.h` found on the project.
 
+[3. The numbers speak for themselves](./3-print_numbers.c) - A program to print all the numbers from 0 to 9. We make use of a `for` loop and to print the number we use `_putchar()` that has been defined in the custom header file `main.h`.
+
 
