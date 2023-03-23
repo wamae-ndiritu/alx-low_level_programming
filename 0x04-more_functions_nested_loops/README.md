@@ -12,4 +12,8 @@
 
 [5. Numbers constitute the only universal language](./5-more_numbers.c) - A program to print numbers from 0 to 14, 10 times separated by new line. The task requires us only to use the `_putchar()` function 3 times.
 
+[6. The shortest distance between two points is a straight line](./6-print_line.c) - A program to print lines with `-` character as many as the user want. If the number of lines passed as the argument is less than or equal to 0, then the program should only print a new line. To print, we must only use `_putchar()`.
+
+
+
 
