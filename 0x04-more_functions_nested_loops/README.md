@@ -18,6 +18,8 @@
 
 [8. You are so much sunshine in every square inch](./8-print_square.c) - A program that prints `#` character to form a square. The size of the square is specified in the argument being passed to the function. The function prints the characters as many times as the size given in both x and y direction to form a square. This is achieved by using a nested while loop. If the `size <= 0` the program prints a new line. The program shoul only use the `_putchar()` function to print characters.
 
+[9. Fizz-Buzz](./9-fizz_buzz.c) - A program know as `FizzBuzz Algorithm`. If a number is divisible by 3; `number % 3 == 0` print `Fizz`, else if the number is divisible by 5 `number % 5 == 0`, print `Buzz`. And if the number is divisible by both 3 and 5; `number % 15 == 0`, then print `FizzBuzz`. Else print the number. This is a common interview question.
+
 
 
 
