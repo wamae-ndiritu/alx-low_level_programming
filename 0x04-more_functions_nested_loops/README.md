@@ -20,6 +20,8 @@
 
 [9. Fizz-Buzz](./9-fizz_buzz.c) - A program know as `FizzBuzz Algorithm`. If a number is divisible by 3; `number % 3 == 0` print `Fizz`, else if the number is divisible by 5 `number % 5 == 0`, print `Buzz`. And if the number is divisible by both 3 and 5; `number % 15 == 0`, then print `FizzBuzz`. Else print the number. This is a common interview question.
 
+[10. Triangles](./10-print_triangle.c) - A program to print a triangle followed by a new line. The size of the triangle is specified in the argument of the function. For every line of the triangle, we need to keep track of the characters we want to print and the spaces. However, the spaces comes first. If we are on the first loop, that means we are on the first row, then we need to print only one character and the rest are spaces. We can calculate the spaces required for each row from the size of the triangle. After getting the number of spaces, we can loop through them to print them and thereafter loop through the characters to be printed on that row. Remember this should only use the `_putchar()` when printing and if the size is less than or equal to 0, then only print a new line.
+
 
 
 
