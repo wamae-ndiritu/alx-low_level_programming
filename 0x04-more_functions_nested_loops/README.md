@@ -4,4 +4,6 @@
 
 [1. isdigit](./1-isdigit.c) - This task aims at checking for digits (0 through 9). It uses the `isdigit()` function in the standard Library defined in the `ctype.h` header file.
 
+[2. Collaboration is multiplication](./2-mul.c) - A function that takes two integers and return their product. The custom function is called `mul()` and has been defined in the `main.h` found on the project.
+
 
