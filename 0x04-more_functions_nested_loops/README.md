@@ -14,6 +14,8 @@
 
 [6. The shortest distance between two points is a straight line](./6-print_line.c) - A program to print lines with `-` character as many as the user want. If the number of lines passed as the argument is less than or equal to 0, then the program should only print a new line. To print, we must only use `_putchar()`.
 
+[7. I feel like I am diagonally parked in a parallel universe](./7-print_diagonal.c) - A program to print diagonal line on the terminal using the `\` character and spaces. f the argument of the function is less than 0 or equal to 0, then a new line is printed. Otherwise, `\` is printed separated by a new line as many times as required. The program keeps track of the `\` being printed so that it adds some spaces on to it to make all the \ to form a diagonal line. Also, I realized that when printing `\`, which is an escape character, we must add another, so that the first escapes the later.
+
 
 
 
