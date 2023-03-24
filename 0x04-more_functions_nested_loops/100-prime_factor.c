@@ -9,9 +9,9 @@
  */
 int main(void)
 {
-	long long n = 612852475143;
-	long long largest_factor = -1;
-	long long odd_factor;
+	long n = 612852475143;
+	long largest_factor = 1;
+	long odd_factor;
 
 	while (n % 2 == 0)
 	{
@@ -31,7 +31,7 @@ int main(void)
 	if (n > 2)
 	{
 		largest_factor = n;
-		printf("%lli\n", largest_factor);
+		printf("%ld\n", largest_factor);
 	}
 	return (0);
 }
