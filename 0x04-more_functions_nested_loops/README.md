@@ -22,6 +22,6 @@
 
 [10. Triangles](./10-print_triangle.c) - A program to print a triangle followed by a new line. The size of the triangle is specified in the argument of the function. For every line of the triangle, we need to keep track of the characters we want to print and the spaces. However, the spaces comes first. If we are on the first loop, that means we are on the first row, then we need to print only one character and the rest are spaces. We can calculate the spaces required for each row from the size of the triangle. After getting the number of spaces, we can loop through them to print them and thereafter loop through the characters to be printed on that row. Remember this should only use the `_putchar()` when printing and if the size is less than or equal to 0, then only print a new line.
 
-
+[11. The problem of distinguishing prime numbers from composite numbers and of resolving the latter into their prime factors is known to be one of the most important and useful in arithmetic](./100-prime_factor.c) - This is a program that returns the largest prime factor of a defined number. Since the first prime factor is 2, we continously divide the number by 2 until it's no longer divisible by 2. Then, we need to continously divide the number with the odd number starting with 3, as long as the square of the odd number is less than the remaining number after factorizing. If the remaining number is greater than 2, then we update the number as the largest prime factor and print it.
 
 
