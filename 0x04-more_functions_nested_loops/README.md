@@ -24,4 +24,6 @@
 
 [11. The problem of distinguishing prime numbers from composite numbers and of resolving the latter into their prime factors is known to be one of the most important and useful in arithmetic](./100-prime_factor.c) - This is a program that returns the largest prime factor of a defined number. Since the first prime factor is 2, we continously divide the number by 2 until it's no longer divisible by 2. Then, we need to continously divide the number with the odd number starting with 3, as long as the square of the odd number is less than the remaining number after factorizing. If the remaining number is greater than 2, then we update the number as the largest prime factor and print it.
 
+[12. Numbers have life; they're not just symbols on paper](./101-print_number.c) - A program to print numbers using the `_putchar()`. This function takes only one character and therefore there is need to create the program in such a way that all the digits in the number given will be printed out as characters. To do this we can check whether the number has more that one digit `if (n / 10)` and if so call the function recursively with a new value of n, `n / 10`. Then we print the leftmost digit of the number after every iteration.
+
 
