@@ -4,4 +4,6 @@
 
 [1. Don't swap horses in crossing a stream](./1-swap.c) - Creating a function that swaps the values of two integers. The values of the intergers are referenced by the pointers passed as the argument of the function. To swap them, we need to copy the value of one to another integer, then swap them, and finally update the last one to the copied value.
 
+[2. This report, by its very length, defends itself against the risk of being read](./2-strlen.c) - Creating a function that returns the length of a string. This makes use of the `strlen()` function in the C Standard Library and defined in the `string.h` header file.
+
 
