@@ -14,4 +14,11 @@
 
 [6. Half the lies they tell about me aren't true](./6-puts2.c) - Creating a function that prints every other character of a string, starting with the first character, followed by a new line. To implement this, we have used a loop, and considering some of the given input and the expected output, we saw that we are printing some characters from the first index and all steps of 2, and thus why we are incrementing the value of `i` with 2 every loop.
 
-[7. Winning is only half of it. Having fun is the other half](./7-puts_half.c) - Creating a function to print the second half of the string. If the number of characters is odd, the function should print the last n characters of the string, where `n = (length_of_the_string - 1) / 2`. 
+[7. Winning is only half of it. Having fun is the other half](./7-puts_half.c) - Creating a function to print the second half of the string. If the number of characters is odd, the function should print the last n characters of the string, where `n = (length_of_the_string - 1) / 2`.
+
+[8. Arrays are not pointers](./8-print_array.c) - Creating a function that prints n elements of an array of integers, followed by a new line. where n is the number of elements of the array to be printed
+Numbers must be separated by comma, followed by a space
+The numbers should be displayed in the same order as they are stored in the array
+You are allowed to use printf.
+
+ 
