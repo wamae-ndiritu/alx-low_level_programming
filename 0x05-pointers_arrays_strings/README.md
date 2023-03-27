@@ -21,4 +21,6 @@ Numbers must be separated by comma, followed by a space
 The numbers should be displayed in the same order as they are stored in the array
 You are allowed to use printf.
 
+[9. strcpy](./9-strcpy.c) - Creating a function that copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by dest. This function uses the `strcpy(char *dest, char *src)` in the Standard Library defined in the `string.h` file. The function takes the pointer `dest` to point to where the copied string will be copied to, and the pointer `src`, the memory address pointing the content to be copied.
+
  
