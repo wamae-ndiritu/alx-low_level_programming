@@ -11,3 +11,7 @@
 [4. I can only go one way. I've not got a reverse gear](./4-print_rev.c) - Creating a function to print a string, in reverse order, followed by a new line. To do this we need to loop through the string starting from the last character, as we go down. The last character can be got from the length of string you less one, as indexing starts from 0. We will keep on looping as long as the variable i is greater or equal to 0, and decrement the its value... This will terminate the loop once the first character has been printed last. 
 
 [5. A good engineer thinks in reverse and asks himself about the stylistic consequences of the components and systems he proposes](./5-rev_string.c) - Reversing a string. The function created takes an address pointing to a string and reverses the order of the string.
+
+[6. Half the lies they tell about me aren't true](./6-puts2.c) - Creating a function that prints every other character of a string, starting with the first character, followed by a new line. To implement this, we have used a loop, and considering some of the given input and the expected output, we saw that we are printing some characters from the first index and all steps of 2, and thus why we are incrementing the value of `i` with 2 every loop.
+
+ 
