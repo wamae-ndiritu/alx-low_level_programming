@@ -8,4 +8,6 @@
 
 [3. I do not fear computers. I fear the lack of them](./3-puts.c) - Creating a function that prints a string, followed by a new line, to stdout. The function makes use of `puts()` function in the C Standard Library defined in the `stdio.h` header file. However, the function, only takes a single argument which is a pointer to a string. To print the new line, we had to use another custom function, `_putchar()` which makes use of the `putchar()` function.
 
+[4. I can only go one way. I've not got a reverse gear](./4-print_rev.c) - Creating a function to print a string, in reverse order, followed by a new line. To do this we need to loop through the string starting from the last character, as we go down. The last character can be got from the length of string you less one, as indexing starts from 0. We will keep on looping as long as the variable i is greater or equal to 0, and decrement the its value... This will terminate the loop once the first character has been printed last. 
+
 
