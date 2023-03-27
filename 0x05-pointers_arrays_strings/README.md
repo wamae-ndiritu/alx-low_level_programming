@@ -6,4 +6,6 @@
 
 [2. This report, by its very length, defends itself against the risk of being read](./2-strlen.c) - Creating a function that returns the length of a string. This makes use of the `strlen()` function in the C Standard Library and defined in the `string.h` header file.
 
+[3. I do not fear computers. I fear the lack of them](./3-puts.c) - Creating a function that prints a string, followed by a new line, to stdout. The function makes use of `puts()` function in the C Standard Library defined in the `stdio.h` header file. However, the function, only takes a single argument which is a pointer to a string. To print the new line, we had to use another custom function, `_putchar()` which makes use of the `putchar()` function.
+
 
