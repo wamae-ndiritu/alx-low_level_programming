@@ -3,4 +3,6 @@
 
 [0. strcat](./0-strcat.c) - Creating a function that concatenates two string. This function appends the src string to the dest string, overwriting the terminating null byte (\0) at the end of dest, and then adds a terminating null byte. The function takes pointers `src` and `dest` as parameters and they point to strings that need to be concatenated together. The function uses the `strcat()` function from the C Standard Library defined in `string.h` header file, and returns the concatenated string. Note that if I am conacatenating `str1` and `str2`, the resulting string is in `str1` and therefore `str2` does not change.
 
+[1. strncat](./1-strncat.c) - Creating a function that concatenates two strings, but it takes at most n-bytes of the string `src` to be appended to the string `dest`. This function makes use of the `strncat()` but now includes some defined number of maximum bytes of string2 will be appended to string1 as seen in [_strcat](./0-strcat.c).
+
 
