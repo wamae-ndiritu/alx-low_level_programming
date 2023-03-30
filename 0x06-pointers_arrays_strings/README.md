@@ -5,4 +5,6 @@
 
 [1. strncat](./1-strncat.c) - Creating a function that concatenates two strings, but it takes at most n-bytes of the string `src` to be appended to the string `dest`. This function makes use of the `strncat()` but now includes some defined number of maximum bytes of string2 will be appended to string1 as seen in [_strcat](./0-strcat.c).
 
+[2. strncpy](./2-strncpy.c) - In this task, we are creating a function that uses the `strncpy()` function in C. The function copies a string to another string. It takes two pointers pointing to destination and src string as parameters as well as an integer n. The `dest` is the points to the string where content will be copied to whereas `src` points to the string where content will be copied from. The integer `n` specifies the max number of characters from `src` will be copied.
+
 
