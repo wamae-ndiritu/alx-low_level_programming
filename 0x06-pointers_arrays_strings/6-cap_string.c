@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+#include <string.h>
 #include <ctype.h>
 
 /**
@@ -20,6 +22,10 @@ char *cap_string(char *str)
 		if (isspace(*capitalize) || ispunct(*capitalize))
 		{
 			capitalize_next_letter = 1;
+			if (*capitalize == '\t')
+			{
+				*capitalize = ' ';
+			}
 		}
 		else if (capitalize_next_letter)
 		{
