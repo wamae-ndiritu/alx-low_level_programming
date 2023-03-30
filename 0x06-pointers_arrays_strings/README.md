@@ -7,4 +7,6 @@
 
 [2. strncpy](./2-strncpy.c) - In this task, we are creating a function that uses the `strncpy()` function in C. The function copies a string to another string. It takes two pointers pointing to destination and src string as parameters as well as an integer n. The `dest` is the points to the string where content will be copied to whereas `src` points to the string where content will be copied from. The integer `n` specifies the max number of characters from `src` will be copied.
 
+[3. strcmp](./3-strcmp.c) - The `strcmp()` function in C compares two strings pointed to by pointers passed as parameters. The functions return an integer less than 0, if the first string is less than second string, else if the first string is greater than second string, it returns a value greater than 0, and if the two strings are equal it returns 0. So in this, task we are making use of this function in another function.
+
 
