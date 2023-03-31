@@ -20,3 +20,6 @@
 [8. rot13](./100-rot13.c) - In this tasking we are encoding a string using `rot13`. ROT13 substitutes an alphabet with its 13 alphabet ahead of it. In this function, you can only use one if condition. `malloc()` function has been used to allocate memory to the string that will be encoded. The memory allocated will also include aplace for the null character and therefore it is `str_length + 1`.
 
 
+[9. Numbers have life; they're not just symbols on paper](./101-print_number.c) - Creating a function that prints out integers using `_putchar()` which only prints one character at a time. We therefore call the function recursively.
+
+
