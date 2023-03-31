@@ -15,7 +15,7 @@ char *rot13(char *str)
 {
 	int str_length = strlen(str);
 	int i;
-	char *encoded_str = (char *)malloc(str_length + 1);
+	char *encoded_str = str;
 
 	for (i = 0; i < str_length; i++)
 	{
