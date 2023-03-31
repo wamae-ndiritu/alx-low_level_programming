@@ -17,3 +17,6 @@
 [6. Expect the best. Prepare for the worst. Capitalize on what comes](./6-cap_string.c) - Creating a function that capitalizes all words of a string. Separators of words: space, tabulation, new line, ,, ;, ., !, ?, ", (, ), {, and }. To capitalize words (making the first character uppercase), we can still use the `toupper()` function but apply some conditions to it such that it only converts the first characters to uppercase. First characters of words are separated by spaces and punctuation. So we can use `isspace()` to check whether there is any kind of space in a string, and `ispunct()` to check whether there is any punctuation mark in the string.
 
 
+[8. rot13](./100-rot13.c) - In this tasking we are encoding a string using `rot13`. ROT13 substitutes an alphabet with its 13 alphabet ahead of it. In this function, you can only use one if condition. `malloc()` function has been used to allocate memory to the string that will be encoded. The memory allocated will also include aplace for the null character and therefore it is `str_length + 1`.
+
+
