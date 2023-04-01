@@ -15,7 +15,7 @@
 char *rot13(char *str)
 {
 	char alphabets[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	char rot13_replacables[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
+	char rot13_replace[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
 	int alphabets_len = strlen(alphabets);
 	int j = 0, i;
 
@@ -27,10 +27,10 @@ char *rot13(char *str)
 
 			if (*(str + j) == character)
 			{
-				*(str + j) = rot13_replacables[i];
+				*(str + j) = rot13_replace[i];
 				break;
 			}
-		}			
+		}
 		j++;
 	}
 	return (str);
