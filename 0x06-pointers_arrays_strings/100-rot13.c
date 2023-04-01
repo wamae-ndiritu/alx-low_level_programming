@@ -31,6 +31,5 @@ char *rot13(char *str)
 		}
 		encoded_str[i] = character;
 	}
-	encoded_str[str_length] = '\0';
 	return (encoded_str);
 }
