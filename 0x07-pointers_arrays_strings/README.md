@@ -12,4 +12,6 @@
 
 [5. strstr](./5-strstr.c) - Creating a function that locates a substring. The function finds the first occurrence of the substring `needle` in the string `haystack`, the terminating null bytes (`\0`) are not compared. The function returns a pointer to the begining of the located substring, or `NULL` if the substring is not found. The task makes use of the `strstr()` function in the C Library.
 
+[6. Chess is mental torture](./7-print_chessboard.c) - Creating a function to print the chessboard. This is a mimic of how a chessboard looks like. The idea is to be able to work with `2D Arrays`, since the values of the board are store in a 2D array. We can therefore loop through the array and print each value which is a character, using the _putchar() custom function.
+
 
