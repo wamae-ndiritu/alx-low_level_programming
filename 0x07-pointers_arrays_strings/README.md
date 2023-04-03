@@ -6,4 +6,6 @@
 
 [2. strchr](./2-strchr.c) - Creating a function that locates a character i a string. The function returns a pinter to the first occurence of the character `c` in the string `s`, or `NULL` if the character is not found. We make use of the C Library function `strchr()` that searches for a character in a given string pointed by the pointer passed as argument. It is worth noting that the pointer returned points to the first occurence of the character and if used to deference will return the part of the string starting from the first occurence of the character.
 
+[3. strspn](./3-strspn.c) - Creating a function that gets the length of a prefix substring. The function returns the number of bytes in the initial segment of `s` which consisit only of bytes from `accept`. This function makes use of the `strspn()` function in C Library which returns the number of characters in the initial segment of str1, passed as the first argument, which consist only of characters from str2, passed as the second argument.
+
 
