@@ -8,4 +8,6 @@
 
 [3. strspn](./3-strspn.c) - Creating a function that gets the length of a prefix substring. The function returns the number of bytes in the initial segment of `s` which consisit only of bytes from `accept`. This function makes use of the `strspn()` function in C Library which returns the number of characters in the initial segment of str1, passed as the first argument, which consist only of characters from str2, passed as the second argument.
 
+[4. strpbrk](./4-strpbrk.c) - Creating a function that searches a string for any of a set of bytes. The function locates the first occurence in the string `s` of any of the bytes in the string `accept`. It then returns a pointer to the byte in `s` that matches one of the bytes in `accept`, or `NULL` if no such byte is found. To achieve this, we will make use of the `strpbrk()` function in the C Library. If we dereference the pointer returned by this function, then we expect to have the part of the string starting from where a certain character that was in the `accept` first occured, to the last character of the string `s`.
+
 
