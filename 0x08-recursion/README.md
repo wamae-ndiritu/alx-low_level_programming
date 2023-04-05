@@ -1,1 +1,3 @@
 # Recursion
+
+[0. She locked away a secret, deep inside herself, something she once knew to be true... but chose to forget](./0-puts_recursion.c) - Creating a function that prints a string, followed by a new line. The function should be similar to `puts()` function. Since, we are learning **recursion**, we can use `putchar()` like function which only prints one character at a time. However, instead of looping through the loop to print all the characters of the string, we call the function recursively to print all the charcters of the string. Our **base case** will be where the `*s == '\0'`, meaning we have reached the end of the string. 
