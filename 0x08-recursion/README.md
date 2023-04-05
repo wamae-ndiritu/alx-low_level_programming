@@ -8,4 +8,6 @@
 
 [3. You mustn't be afraid to dream a little bigger, darling](./3-factorial.c) - Creating a function that returns the factorial of a given number. If the number passed is lower than 0, the function should return -1 to indicate an error, and the factorial of 0 is 1. This can be done by calling the function recursively, with the `base case` as the factorial of 0, then we can return the number, and call the again but with `n - 1` until `n`-1 == 0` whose factorial is 0. Here the function stop calling itself and adds all the return values of each function call and returns them as the fctorial of the number that was passed.
 
- 
+[4. Once an idea has taken hold of the brain it's almost impossible to eradicate](./4-power_recursion.c) - Creating a function that returns the value of `x` raised to the power of `y`. If `y` is lower than 0, the function should return -1. The function is a recursive function where it returns `x * _pow_recursion(x, y - 1)` which signifies the times x is mulplying itself to. The function after checking the base case which is that `y ==0`, then the function stops the recursion and gets the product of all the return values for each recursion and then return them as the power.
+
+
