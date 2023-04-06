@@ -29,8 +29,8 @@ int is_palindrome(char *s)
 	}
 	substr = malloc(str_len - 1);
 	memcpy(substr, &s[1], str_len - 2);
-	substr[str_len - 2] = '\0';	
-	return_value = is_palindrome(substr);
+	substr[str_len - 2] = '\0';
+	(return_value = is_palindrome(substr));
 	free(substr);
 	return (return_value);
 
