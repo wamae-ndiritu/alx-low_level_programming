@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 {
 	int product_res, num1, num2;
 
-	if (argc == 3)
+	if (argc >= 3)
 	{
 		num1 = atoi(argv[1]);
 		num2 = atoi(argv[2]);
@@ -23,6 +23,6 @@ int main(int argc, char *argv[])
 		printf("%d\n", product_res);
 		return (0);
 	}
-	printf("Error");
+	printf("Error\n");
 	return (1);
 }
