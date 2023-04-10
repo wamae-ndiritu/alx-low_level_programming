@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 {
 	int product_res, num1, num2;
 
-	if (argc >= 3)
+	if (argc == 3)
 	{
 		num1 = atoi(argv[1]);
 		num2 = atoi(argv[2]);
