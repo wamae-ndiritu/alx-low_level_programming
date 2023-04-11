@@ -27,7 +27,7 @@ int **alloc_grid(int width, int height)
 		return (NULL);
 	}
 	/* allocating single block memory for all the rows */
-	grid = (int **)malloc(height * sizeof(int));
+	grid = (int **)malloc(height * sizeof(int *));
 	if (grid == NULL)
 	{
 		return (NULL);
@@ -35,7 +35,7 @@ int **alloc_grid(int width, int height)
 	/* allocating memory to the columns */
 	for (i = 0; i < height; i++)
 	{
-		grid[i] = malloc(width * sizeof(int));
+		grid[i] = (int *)malloc(width * sizeof(int));
 		if (grid[i] == NULL)
 		{
 			for (j = 0; j < i; j++)
