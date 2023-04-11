@@ -13,3 +13,6 @@
 ](./3-alloc_grid.c) - Creating a function that returns a pointer to a 2 dimensional array of integers. The prototype: `int **alloc_grid(int width, int height);` and each element of the grid should be initialized to 0. The function should return NULL on failure. If width or height is 0 or negative, return NULL. *It is worth noting that when allocating memory for a 2D array, using `malloc(width * height * sizeof(int))` will allocate a single block memory block*. If you therefore try to access `arrayName[i][j]` might return a *segmentation fault*.
 
 
+[4. It's not bragging if you can back it up](./4-free_grid.c) - Creating a function that frees a 2 dimensional grid previously created by your alloc_grid funtion.
+
+
