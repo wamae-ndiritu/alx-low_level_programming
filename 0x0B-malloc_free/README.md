@@ -16,3 +16,6 @@
 [4. It's not bragging if you can back it up](./4-free_grid.c) - Creating a function that frees a 2 dimensional grid previously created by your alloc_grid funtion.
 
 
+[5. It isn't the mountains ahead to climb that wear you out; it's the pebble in your shoe](./100-argstostr.c) - creating a function that concatenates all the arguments of your program. The prototype is `char *argstostr(int ac, char **av);`. Returns `NULL` if `ac == 0` or `av == NULL`, or if allocating memory fails, otherwise return a pointer to a new string. Each argument should be folowed by a `\n` in the new string.
+
+
