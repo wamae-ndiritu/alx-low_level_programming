@@ -22,11 +22,12 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-	new_str = (char *)malloc(str_len);
-	new_str = strcpy(new_str, str);
+	new_str = (char *)malloc(sizeof(char) * str_len);
 	if (new_str == NULL)
 	{
+		/* insufficient memory */
 		return (NULL);
 	}
+	new_str = strcpy(new_str, str);
 	return (new_str);
 }
