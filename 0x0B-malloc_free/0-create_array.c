@@ -14,9 +14,17 @@
 
 char *create_array(unsigned int size, char c)
 {
-	char *new_array = (char *)malloc(size);
+	char *new_array;
 
-
+	if (size == 0)
+	{
+		return (NULL);
+	}
+	new_array = (char *)malloc(size);
+	if (new_array == NULL)
+	{
+		return (NULL);
+	}
 	/* Initializing the array */
 	memset(new_array, c, size);
 	return (new_array);
