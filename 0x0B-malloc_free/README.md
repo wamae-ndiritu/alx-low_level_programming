@@ -19,6 +19,6 @@
 [5. It isn't the mountains ahead to climb that wear you out; it's the pebble in your shoe](./100-argstostr.c) - creating a function that concatenates all the arguments of your program. The prototype is `char *argstostr(int ac, char **av);`. Returns `NULL` if `ac == 0` or `av == NULL`, or if allocating memory fails, otherwise return a pointer to a new string. Each argument should be folowed by a `\n` in the new string.
 
 
-[6. I will show you how great I am])(./101-strtow.c) - Creating a function that splits a string into words. The prototype of the function is `char **strtow(char *str);` and it returns a pointer to an array of strings(words). Each element of this array should contain a single word, null-terminated. The last element of the returned array should be NULL. Words are separated by spaces. If `str == NULL` or `str == ""` the function should return `NULL`. Similary, if there is an error allocatic memory, the function should as well return NULL.
+[6. I will show you how great I am](./101-strtow.c) - Creating a function that splits a string into words. The prototype of the function is `char **strtow(char *str);` and it returns a pointer to an array of strings(words). Each element of this array should contain a single word, null-terminated. The last element of the returned array should be NULL. Words are separated by spaces. If `str == NULL` or `str == ""` the function should return `NULL`. Similary, if there is an error allocatic memory, the function should as well return NULL.
 
 
