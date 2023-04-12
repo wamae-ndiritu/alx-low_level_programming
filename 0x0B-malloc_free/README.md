@@ -44,7 +44,7 @@ The `(char **)` signifies that we are using a double pointer.
 [1. The woman who has no imagination has no wings](./1-strdup.c) - Creating a function that returns a pointer to a newly allocated space in memory, which contains a copy of the string given as a parameter.
 
 
-[2. He who is not courageous enough to take risks will accomplish nothing in life](./str_concat.c) - Creating a function taht concatenates two strings. The returned pointer should point to a newly allocated space in memory which conatins the contents of s1, followed by the contents of s2, and null terminated. If NULL is passed, we are treating it as an empty string.
+[2. He who is not courageous enough to take risks will accomplish nothing in life](./2-2-str_concat.c) - Creating a function taht concatenates two strings. The returned pointer should point to a newly allocated space in memory which conatins the contents of s1, followed by the contents of s2, and null terminated. If NULL is passed, we are treating it as an empty string.
 
 
 [3. If you even dream of beating me you'd better wake up and apologize
