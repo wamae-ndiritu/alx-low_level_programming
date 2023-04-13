@@ -6,3 +6,4 @@
 [1. string_nconcat](./1-string_nconcat.c) - Creating a function that concatenates two strings. Prototype: `char *string_nconcat(char *s1, char *s2, unsigned int n);`. The returned pointer shall point to a newly allocated space in memory, which contains `s1`, followed by the first `n` bytes of `s2`, and null terminated. If the function fails, it should return NULL. If `n` is greater or equal to the length of `s2` then use the entire string `s2`. if NULL is passed, treat is as an empty string.
 
 
+[2. _calloc](./2-calloc.c) - Creating a function that alocates memory for an array using malloc. Prototype: `void *_calloc(unsigned int nmemb, unsigned int size);`. The function `_calloc` allocates memory for an array of `nmemb` elements of `size` bytes each and returns a pointer to the alocated memory. The memory is set to zero. If `nmemb` or `size` is 0, then `_calloc` returns NULL. if malloc fails, then `_calloc` returns NULL.
