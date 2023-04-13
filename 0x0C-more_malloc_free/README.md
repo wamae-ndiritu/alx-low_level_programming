@@ -12,3 +12,7 @@
 [3. array_range](./3-array_range.c) - Creating a function that creates an array of integers. Prototype: `int *array_range(int min, int max);`. The array created should contain all the values from `min`(included) to `max`(included), ordered from `min` to `max`. The function returns the pointer to the newly created array. If `min > max`, return `NULL`. if `malloc` fails, return NULL as well.
 
 
+[4. _realloc](./100-realloc.c) - Creating a function taht reallocates a memory block using **malloc** and **free**. The prototype: ` void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size); `, where `ptr` is a pointer to the memory previously allocated with a call to `malloc`: `malloc(old_size)`. `old_size` is the size in bytes, of the allocated space for `ptr`, and `new_size` is the new size, in bytes of the new memory block. The contents will be copied to the newly allocated space, in the range from the start of `ptr` up to the minimum of the old and new sizes. If ` new_size > old_size `, the added memory should not be initialized. If ` new_size == old_size ` do not do anything and return `ptr`. If `ptr == NULL `, then the call is equivalent to `malloc(new_size)`, for all values of `old_size` and `new_size`. If ` new_size == 0` and `ptr != NULL `, then the call is equivalent to `free(ptr)`. Return NULL. Don't forget to free `ptr` when it makes sense.
+
+
+
