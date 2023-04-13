@@ -23,11 +23,16 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	if (s1 == NULL)
 	{
-		s1 = '\0';
+		s1 = "";
 	}
 	else if (s2 == NULL)
 	{
-		s2 = '\0';
+		s2 = "";
+	}
+	else if (s1 == NULL && s2 == NULL)
+	{
+		s1 = "";
+		s2 = "";
 	}
 	str1 = s1;
 	str2 = s2;
