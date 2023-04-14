@@ -12,7 +12,7 @@
 
 void print_error(void)
 {
-	long unsigned int i;
+	unsigned int i;
 	char err[] = "Error";
 
 	for (i = 0; i < strlen(err); i++)
