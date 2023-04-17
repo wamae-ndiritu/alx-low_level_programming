@@ -12,3 +12,7 @@
 
 
 
+[3. Function-like macro](./3-function_like_macro.h) - Creating a function_like macro `ABS(x)` that computes the absolute value of a number `x`.
+> If the number is negative, then we can less it from itself so that to bring the number to zero, and then less it again from it self to make it positive. If the number is positive, we will just return the number as it is. The function_like macro use a **ternary operator**.
+
+
