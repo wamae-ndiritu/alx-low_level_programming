@@ -19,3 +19,9 @@
 [3. Outside of a dog, a book is a man's best friend. Inside of a dog it's too dark to read](./dog.h) - Defining a new type `dog_t` as a new name for the type `struct dog`.
 
 
+[4. A door is what a dog is perpetually on the wrong side of](./4-new_dog.c) - Creating a function that creates an instance of a dog.
+- Prototype: `dog_t *new_dog(char *name, float age, char *owner);`
+- You have to store a copy of `name` and `owner`
+- Return `NULL` if the function fails
+
+
