@@ -16,3 +16,6 @@
 > If the number is negative, then we can less it from itself so that to bring the number to zero, and then less it again from it self to make it positive. If the number is positive, we will just return the number as it is. The function_like macro use a **ternary operator**.
 
 
+[4. SUM](./4-sum.h) - Creating a function_like macro `SUM(x, y)` that computes the sum of the numbers `x` and `y`.
+
+
