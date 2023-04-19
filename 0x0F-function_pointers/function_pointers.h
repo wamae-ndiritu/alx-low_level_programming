@@ -1,4 +1,4 @@
-#ifndef __HEADER_H__
-#define __HEADER_H_
+#ifndef HEADER_FILE
+#define HEADER_FILE
 void print_name(char *name, void (*f)(char *));
 #endif
