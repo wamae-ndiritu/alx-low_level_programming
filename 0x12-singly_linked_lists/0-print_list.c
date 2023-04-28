@@ -14,6 +14,8 @@ size_t print_list(const list_t *h)
 	const list_t *current_node = h;
 	size_t count_nodes = 0;
 
+	if (h == NULL)
+		return (0);
 	while (current_node != NULL)
 	{
 		char len_buffer[16], *str;
@@ -38,7 +40,6 @@ size_t print_list(const list_t *h)
 		if (str == NULL)
 		{
 			str = "(nil)";
-			
 		}
 		str_len = strlen(str);
 		for (j = 0; j < str_len; j++)
