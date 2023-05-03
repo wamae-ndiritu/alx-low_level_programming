@@ -23,7 +23,7 @@ size_t print_list(const list_t *h)
 		size_t i = 0, j, str_len;
 
 		do {
-			len_buffer[i++] = (len % 10) + '0';
+			len_buffer[i++] = len + '0';
 			len /= 10;
 		} while (len != 0);
 		while (i-- > 0)
