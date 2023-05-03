@@ -26,9 +26,9 @@ size_t print_list(const list_t *h)
 			len_buffer[i++] = (len % 10) + '0';
 			len /= 10;
 		} while (len != 0);
+		_putchar('[');
 		while (i-- > 0)
 		{
-			_putchar('[');
 			if (current_node->str == NULL)
 				_putchar(0 + '0');
 			else
