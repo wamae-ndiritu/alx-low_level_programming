@@ -3,14 +3,14 @@
 #include <stdlib.h>
 
 /**
- * add_node - adds a new node at the end of a linked list
+ * add_node_end - adds a new node at the end of a linked list
  * @head: pointer to pointer to the head of the list
  * @str: string to be added to the new element of the list
  *
  * Return: returns address of the new element or NULL if it failed.
  */
 
-list_t *add_node(list_t **head, const char *str)
+list_t *add_node_end(list_t **head, const char *str)
 {
 	list_t *new_list_node;
 	list_t *current_list_node;
