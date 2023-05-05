@@ -12,16 +12,9 @@
 
 int get_bit(unsigned long int n, unsigned int index)
 {
-	unsigned long int bit_mask = 1UL << ((sizeof(unsigned long int) * 8) - 1);
-	int len, i;
+	unsigned long int bit = sizeof(unsigned long int) * 8;
 
-	printf("%lu\n", bit_mask);
-	while (bit_mask > 0)
-	{
-		if (bit_mask & n)
-			break;
-		bit_mask >>= 1;
-	}
-	printf("%lu\n", bit_mask);
-	return (0);
+	if (index >= bit)
+		return (-1);
+	return ((n >> index) & 1);
 }
