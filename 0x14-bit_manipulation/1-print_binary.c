@@ -11,38 +11,26 @@
 
 void print_binary(unsigned long int n)
 {
-	unsigned long int bit_mask = 1UL << (sizeof(unsigned long int) * 8 - 1);
-	char bit_buffer[64];
-	int len, i, count = 0;
+	unsigned long int bit_mask = 1UL;
 
+	bit_mask <<= (sizeof(bit_mask) * 8 - 1);
+	if (n == 0)
+	{
+		_putchar('0');
+		return;
+	}
 	while (bit_mask > 0)
 	{
-		len = strlen(bit_buffer);
-		if (n & bit_mask)
-		{
-			bit_buffer[len] = '1';
-			bit_buffer[len + 1] = '\0';
-		}
-		else
-		{
-			bit_buffer[len] = '0';
-			bit_buffer[len + 1] = '\0';
-		}
+		if (bit_mask & n)
+			break;
 		bit_mask >>= 1;
 	}
-	for (i = 0; i < len; i++)
+	while (bit_mask > 0)
 	{
-		if (bit_buffer[i] == '0')
-		{
-			count++;
-		}
+		if (n & bit_mask)
+			_putchar('1');
 		else
-			break;
-	}
-	if (count == 0)
-		_putchar('0');
-	for (i = count; i <= len && count > 0; i++)
-	{
-		_putchar(bit_buffer[i]);
+			_putchar('0');
+		bit_mask >>= 1;
 	}
 }
