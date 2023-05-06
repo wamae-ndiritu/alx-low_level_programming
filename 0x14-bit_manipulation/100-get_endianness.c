@@ -8,11 +8,7 @@
 
 int get_endianness(void)
 {
-	union
-	{
-		int i;
-		char ch[sizeof(int)];
-	} my_union;
+	union my_union my_union;
 
 	my_union.i = 1;
 	if (my_union.ch[0] == 1)
