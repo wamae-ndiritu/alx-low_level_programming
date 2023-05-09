@@ -35,7 +35,7 @@ int create_file(const char *filename, char *text_content)
 			fp = open(filename, O_WRONLY | O_TRUNC);
 			if (fp == -1)
 				return (-1);
-			if(truncate(filename, 0) == -1)
+			if (truncate(filename, 0) == -1)
 				return (-1);
 		}
 		return (-1);
